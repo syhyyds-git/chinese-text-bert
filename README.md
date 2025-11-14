@@ -5,6 +5,7 @@
 
 我自己用的4GB显存的笔记本电脑，handwritten_berts这个代码预训练大概跑了4-5小时，微调3-4小时。
 
+
 ## 文件管理
 
 ### 1.预训练
@@ -94,5 +95,7 @@ num_heads可以修改成8
 5.3generate_corpus_nsp_mlm.py
 
 设定的文本行数可以更大
+
+### 由于train.tsv,dev.tsv,test.tsv文件过大，我让他们三个单独发了出来，下载代码时可以将这三个文件再加到bert_text_matching，handwritten_berts文件夹下。
 
 
