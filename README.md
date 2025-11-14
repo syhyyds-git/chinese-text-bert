@@ -1,16 +1,21 @@
 # chinese-text-bert
-##基于BERT的文本相似度判断。
-##设备要求:
-###我自己用的4GB显存的笔记本电脑，handwritten_berts这个代码预训练大概跑了4-5小时，微调3-4小时。
+## 基于BERT的文本相似度判断。
 
-##文件管理
+## 设备要求:
 
-###1.预训练
-####用一个小例子手写一下预训练过程。
-####具体参考：https://zhuanlan.zhihu.com/p/605020970
+我自己用的4GB显存的笔记本电脑，handwritten_berts这个代码预训练大概跑了4-5小时，微调3-4小时。
 
-###2.bert_text_matching
-####调用已有的，训练好的bert-base-chinese模型进行文本相似度判断
+## 文件管理
+
+### 1.预训练
+
+用一个小例子手写一下预训练过程。
+
+具体参考：https://zhuanlan.zhihu.com/p/605020970
+
+### 2.bert_text_matching
+
+调用已有的，训练好的bert-base-chinese模型进行文本相似度判断
 
 ###3.handwritten_berts
 ####手写预训练，微调过程
