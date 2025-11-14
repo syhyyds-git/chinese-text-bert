@@ -1,5 +1,5 @@
 # chinese-text-bert
-##基于BERT的文本相似度判断
+##基于BERT的文本相似度判断。
 ##设备要求:
 ###我自己用的4GB显存的笔记本电脑，handwritten_berts这个代码预训练大概跑了4-5小时，微调3-4小时。
 
